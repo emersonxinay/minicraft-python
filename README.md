@@ -1,6 +1,6 @@
 # creando juego basico de minicraft con python
 
-## Descrgar el repositorio
+## Clonar el repositorio
 ```bash
 git clone link-repo
 ``` 
@@ -15,3 +15,8 @@ python3 minicraft.py
 <img src="./assets/img_demo2.PNG">
 <br>
 <img src="./assets/img_demo.PNG">
+
+## para cerrar el juego, solo precionar "Esc"
+```
+Esc
+``` 
