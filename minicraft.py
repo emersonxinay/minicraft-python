@@ -1,6 +1,6 @@
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
-
+window.title = "Mi Primer Juego Minicraft"
 app = Ursina()
 grass_texture = load_texture('assets/grass_block.png')
 stone_texture = load_texture('assets/stone_block.png')
@@ -13,6 +13,10 @@ block_pick = 1
 
 window.fps_counter.enabled = False
 window.exit_button.visible = False
+
+def input(key):
+    if key == 'escape':
+        quit()
 
 def update():
 	global block_pick

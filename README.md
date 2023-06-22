@@ -11,3 +11,7 @@ cd minicraft-python
 ```bash
 python3 minicraft.py
 ```
+## imagen del juego minicraft que deberia salir al correr el programa 
+<img src="./assets/img_demo2.PNG">
+<br>
+<img src="./assets/img_demo.PNG">
